@@ -15,3 +15,6 @@ Our **Project Files** are [here](https://github.com/er7-njit/GPSTracker430/tree/
 
 Most questions about our project can be answered by the [wiki](https://github.com/er7-njit/GPSTracker430/wiki)
 
+![image](https://github.com/user-attachments/assets/0a1c22d2-66fa-4ff1-aa01-d8a0bf09a7ea)
+
+![image](https://github.com/user-attachments/assets/574a016b-32c8-48c0-9db7-5a22e3204ea6)
