@@ -1,7 +1,7 @@
 # GPS Tracker Project
 Eliyahu Richter and Ravyn John's ECET 430 Project
 
-A **Summary** of our project is a available [here](https://github.com/er7-njit/GPSTracker430/blob/cece912d7f03af10e9d917b8aec5fe0e1333abaf/Documentation/Tracker%20Project%20Definition-1.pdf)
+Our initial **Project Definition** is available [here](https://github.com/er7-njit/GPSTracker430/blob/cece912d7f03af10e9d917b8aec5fe0e1333abaf/Documentation/Tracker%20Project%20Definition-1.pdf)
 
 **Documentation** is available [here](https://github.com/er7-njit/GPSTracker430/blob/ab64750a5ff875a8f894f59830475d7ccaaeec25/Documentation/Documentation.md)
 
