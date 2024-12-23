@@ -7,10 +7,6 @@ Our initial **Project Definition** is available [here](https://github.com/er7-nj
 
 The **Logbook** for the project's progress is [here](https://github.com/er7-njit/GPSTracker430/wiki/Logbook)
 
-**Components list** is available [here](https://github.com/er7-njit/GPSTracker430/blob/e50b7fd845eaf3ef8714844bfaa15c71d1d269b9/Components/components.md)
-
-Our decision for our choice of microcontroller is [here](https://github.com/er7-njit/ECET430Project/blob/276147137cbd99a22d3c6cdc06148143261d77ec/Components/Microcontroller%20Decision.md)
-
 Our **Project Files** are [here](https://github.com/er7-njit/GPSTracker430/tree/ab260b6b7c3f62c42461426aa5eb6a2d24de4f71/PCB%20Design)
 
 Most questions about our project can be answered by the [wiki](https://github.com/er7-njit/GPSTracker430/wiki)
