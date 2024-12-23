@@ -35,19 +35,32 @@ Firstly, connect the GPS and WWAN Module to the USB Hub. Then, connect the USB h
 2. Ensure the the Pi's software is fully up to date with the commands:\
    \
    `sudo apt update && sudo apt upgrade -y`
-3. Ensure that python3 and pip are installed with the commands:\
+3. Ensure that nmcli, python3 and pip are installed with the commands:\
    \
-   `sudo apt install python3 pip`
-4. The script requires several dependencies, install them within a python environment as root
+   `sudo apt install python3 pip nmcli`
+4. Configure APN Settings for SIM Card using nmcli:\
+   ```
+   sudo nmcli c add type gsm ifname <interface> con-name <name> apn <operator_apn>
+   sudo nmcli connection up id <name>
+   ```
+   _Change <interface> to the corresponding interface name for your wwan module, as per ip link_\
+   _Change <name> to your desired name for the connection, and <operator_apn> to your operator's APN_
+6. The script requires several dependencies, install them within a python environment as root
    \
    `pip install board pytz adafruit-circuitpython-gps`
-5. Clone this repository to an accesible folder in the home directory
-6. cd to the scripts folder
-7. Edit the script emailgps.py with your editor of choice
-8. Change the variable `EMAIL_SENDER` to your email of choice
-9. Run the script
-10. Wait for fix and recieve the coordinates of the Pi Tracker at the chosen email and printed in the terminal
-
+7. Clone this repository to an accesible folder in the home directory
+8. cd to the scripts folder
+9. Edit the script emailgps.py with your editor of choice
+10. Change the variable `EMAIL_SENDER` to your email of choice
+11. Run the script
+12. Wait for fix and recieve the coordinates of the Pi Tracker at the chosen email and printed in the terminal
+\
+## Troubleshooting Steps
+\
+## Issues with Network
+**Unable to Connect to SIM Card**
+- Ensure that the card is fully connected to the adapters and Pi
+- Ensure the APN settings are configured using NMCLI
 
 ### Referenced Material
 ![Screenshot From 2024-12-22 21-57-38](https://github.com/user-attachments/assets/cc25fb00-368d-45e4-8d2e-35eac3726188)
