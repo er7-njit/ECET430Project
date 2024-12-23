@@ -56,11 +56,20 @@ Firstly, connect the GPS and WWAN Module to the USB Hub. Then, connect the USB h
 12. Wait for fix and recieve the coordinates of the Pi Tracker at the chosen email and printed in the terminal
 \
 ## Troubleshooting Steps
-\
 ## Issues with Network
-**Unable to Connect to SIM Card**
+**Unable to Connect to Cellular Network**
 - Ensure that the card is fully connected to the adapters and Pi
-- Ensure the APN settings are configured using NMCLI
+- Ensure the APN settings are configured using nmcli
+- Ensure you are in an area of good cellular range
+
+**Unable to Communicate with Pi via SSH**
+- Ensure the Pi is connected to your LAN via the use of an IP Scanner or accessing your router's client list. Alternatively, you can plug in a monitor and peripherals and run iwconfig and a ping test.
+- Ensure SSH is enabled on the Pi when flashing the image or using peripherals and a display. Alternatively, SSH can be enabled directly on the SD card. More information about this available [here](https://roboticsbackend.com/enable-ssh-on-raspberry-pi-raspbian/)
+
+## Issues with GPS
+**Unable to gain GPS Fix**
+- Ensure the GPS has solid physical connection to the Pi, and that the Rx and Tx lights are illuminated and flashing, indicating data transmission and reception.
+- Ensure the GPS is in a location that would have good GPS reception.
 
 ### Referenced Material
 ![Screenshot From 2024-12-22 21-57-38](https://github.com/user-attachments/assets/cc25fb00-368d-45e4-8d2e-35eac3726188)
