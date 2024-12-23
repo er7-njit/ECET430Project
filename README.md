@@ -2,7 +2,10 @@
 Eliyahu Richter and Ravyn John's ECET 430 Project
 
 Our initial **Project Definition** is available [here](https://github.com/er7-njit/GPSTracker430/blob/main/Documentation/Initial%20Project%20Definition.pdf)
+
 Our final **Project Definition** is available [here](https://github.com/er7-njit/GPSTracker430/blob/main/Documentation/Final%20Project%20Definition.pdf)
+
+A summary of our **Component Decisions** is available [here](https://github.com/er7-njit/GPSTracker430/blob/main/Documentation/Design%20decision.pdf)
 
 **Documentation** is available [here](https://github.com/er7-njit/GPSTracker430/blob/main/Documentation/Documentation.md)
 
