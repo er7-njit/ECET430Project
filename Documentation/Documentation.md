@@ -38,7 +38,15 @@ Firstly, connect the GPS and WWAN Module to the USB Hub. Then, connect the USB h
 3. Ensure that python3 and pip are installed with the commands:\
    \
    `sudo apt install python3 pip`
-4. The script requires several dependencies, install them with 
+4. The script requires several dependencies, install them within a python environment as root
+   \
+   `pip install board pytz adafruit-circuitpython-gps`
+5. Clone this repository to an accesible folder in the home directory
+6. cd to the scripts folder
+7. Edit the script emailgps.py with your editor of choice
+8. Change the variable `EMAIL_SENDER` to your email of choice
+9. Run the script
+10. Wait for fix and recieve the coordinates of the Pi Tracker at the chosen email and printed in the terminal
 
 
 ### Referenced Material
