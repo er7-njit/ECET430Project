@@ -3,7 +3,7 @@ Eliyahu Richter and Ravyn John's ECET 430 Project
 
 Our initial **Project Definition** is available [here](https://github.com/er7-njit/GPSTracker430/blob/1fbe88476c49dfe03f08f8507f356d232a83af87/Documentation/Initial%20Project%20Definition.pdf)
 
-**Documentation** is available [here](https://github.com/er7-njit/GPSTracker430/blob/ab64750a5ff875a8f894f59830475d7ccaaeec25/Documentation/Documentation.md)
+**Documentation** is available [here](https://github.com/er7-njit/GPSTracker430/blob/524c444045f896dbb18077e7e2c70871a57eb485/Documentation/Documentation.md)
 
 The **Logbook** for the project's progress is [here](https://github.com/er7-njit/GPSTracker430/wiki/Logbook)
 
